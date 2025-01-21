@@ -1,0 +1,15 @@
+# Example Cash Flow Data
+years = [2023, 2024, 2025, 2026, 2027]
+cash_flows = [120000, 130000, 140000, 150000, 160000]
+
+# Plotting
+plt.figure(figsize=(8, 6))
+plt.plot(years, cash_flows, marker='o', color='b', label="Cash Flow")
+plt.axhline(y=0, color='r', linestyle='--', linewidth=1)
+plt.title("Cash Flow and Debt Repayment")
+plt.xlabel("Year")
+plt.ylabel("Cash Flow ($)")
+plt.legend()
+plt.grid(True)
+plt.savefig("data/outputs/charts/cash_flow_graph.png")
+plt.close()
