@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ```markdown
 # Leveraged Buyout (LBO) Model with Multi-Scenario Analysis
 
@@ -60,6 +61,3 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 ## Contribution
 Contributions are welcome! Feel free to submit issues or pull requests to improve this repository.
 
-## Contact
-For questions or support, please contact [your-email@example.com].
-```
