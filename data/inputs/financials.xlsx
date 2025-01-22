@@ -1,0 +1,46 @@
+from openpyxl import Workbook
+
+# Create a new workbook
+wb = Workbook()
+
+# Add "Historical Financials" sheet
+historical_sheet = wb.active
+historical_sheet.title = "Historical Financials"
+
+# Add headers and data for Historical Financials
+historical_headers = ["Year", "Revenue", "EBITDA", "Net Income", "Total Debt", "Cash"]
+historical_data = [
+    [2020, 1000000, 200000, 100000, 500000, 50000],
+    [2021, 1100000, 220000, 110000, 450000, 55000],
+    [2022, 1200000, 240000, 120000, 400000, 60000],
+]
+
+historical_sheet.append(historical_headers)
+for row in historical_data:
+    historical_sheet.append(row)
+
+# Add "Forecast" sheet
+forecast_sheet = wb.create_sheet(title="Forecast")
+
+# Add headers and data for Forecast
+forecast_headers = [
+    "Year",
+    "Revenue Growth",
+    "EBITDA Margin",
+    "Net Income Margin",
+    "CapEx",
+    "Debt Repayment",
+    "Interest Rate",
+]
+forecast_data = [
+    [2023, 10, 20, 10, 50000, 50000, 5],
+    [2024, 8, 18, 9, 60000, 60000, 5],
+    [2025, 6, 17, 8, 70000, 70000, 5],
+]
+
+forecast_sheet.append(forecast_headers)
+for row in forecast_data:
+    forecast_sheet.append(row)
+
+# Save the workbook
+wb.save("financials.xlsx")

@@ -1,0 +1,10 @@
+{
+    "InitialDebt": 50000000,
+    "EquityContribution": 15000000,
+    "EBITDA Growth Rate": 0.05,
+    "CapEx Percentage of Revenue": 0.04,
+    "Working Capital Percentage": 0.02,
+    "ExitMultiple": 8.0,
+    "Tax Rate": 0.25
+  }
+  

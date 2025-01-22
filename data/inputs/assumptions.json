@@ -1,0 +1,11 @@
+{
+    "acquisition_price": 1000000,
+    "debt_to_equity_ratio": 0.7,
+    "exit_multiple": 8.0,
+    "entry_multiple": 6.0,
+    "interest_rate": 0.05,
+    "tax_rate": 0.25,
+    "depreciation_rate": 0.1,
+    "amortization_rate": 0.05,
+    "forecast_years": 5
+}

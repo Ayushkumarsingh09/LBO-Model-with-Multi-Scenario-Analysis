@@ -1,0 +1,25 @@
+import matplotlib.pyplot as plt
+import numpy as np
+
+# Example sensitivity data
+exit_multiples = [6.0, 7.0, 8.0, 9.0, 10.0]
+revenue_growth = [5, 10, 15, 20, 25]
+matrix = np.array([
+    [1.5, 1.8, 2.0, 2.2, 2.4],
+    [1.8, 2.1, 2.4, 2.6, 2.8],
+    [2.1, 2.4, 2.8, 3.0, 3.2],
+    [2.4, 2.8, 3.1, 3.4, 3.6],
+    [2.7, 3.0, 3.4, 3.7, 4.0]
+])
+
+# Plotting
+plt.figure(figsize=(8, 6))
+plt.imshow(matrix, cmap="viridis", aspect="auto")
+plt.colorbar(label="MOIC (x)")
+plt.xticks(range(len(exit_multiples)), exit_multiples)
+plt.yticks(range(len(revenue_growth)), revenue_growth)
+plt.xlabel("Exit Multiples")
+plt.ylabel("Revenue Growth (%)")
+plt.title("Sensitivity Matrix")
+plt.savefig("data/outputs/charts/sensitivity_matrix.png")
+plt.close()

@@ -1,0 +1,21 @@
+LBO Summary Report
+-------------------
+
+Acquisition Price: $1,000,000
+Debt to Equity Ratio: 70:30
+Forecast Period: 2023-2027
+
+Key Metrics:
+- Internal Rate of Return (IRR): 25.8%
+- Multiple on Invested Capital (MOIC): 2.8x
+- Debt Coverage Ratio: 1.8x
+
+Yearly Cash Flows:
+2023: $120,000
+2024: $130,000
+2025: $140,000
+2026: $150,000
+2027: $160,000
+
+Exit Valuation: $2,000,000
+Equity Value: $1,400,000
